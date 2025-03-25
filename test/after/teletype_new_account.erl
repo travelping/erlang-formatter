@@ -15,4 +15,4 @@
     ">>).
 
 a() ->
-           ?TEMPLATE_TEXT.
+    ?TEMPLATE_TEXT.

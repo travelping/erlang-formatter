@@ -98,7 +98,7 @@ fmt(Exe, Paths) ->
            ,"--quick"
            ,"--directory", Priv
            ,"--load", filename:join(Priv,"fmt.el")
-            | Paths
+           | Paths
            ],
     rebar_api:debug("running ~s ~p", [Exe, Args]),
     collect(

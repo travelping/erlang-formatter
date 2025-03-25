@@ -6,13 +6,13 @@
 %% bla: 
 
 -export([hi/0
-]).
+        ]).
 
 
 %% API
 
 hi () ->
-ok.
+    ok.
 
 %% Internals
 

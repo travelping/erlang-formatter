@@ -8,15 +8,15 @@
 -export([b/1]).
 
 -record(s, { a :: list()
-                  , b :: other:thing()
-         }).
+           , b :: other:thing()
+           }).
 
 
 %% API
 
 b (_1)
-when is_binary(_1) ->
-#s{}.
+  when is_binary(_1) ->
+    #s{}.
 
 %% Internals
 

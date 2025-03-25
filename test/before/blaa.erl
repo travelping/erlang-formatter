@@ -11,8 +11,8 @@
 %% API
 
 b (_1)
-when is_binry(_1) ->
-'k'.
+  when is_binry(_1) ->
+    'k'.
 
 %% Internals
 
